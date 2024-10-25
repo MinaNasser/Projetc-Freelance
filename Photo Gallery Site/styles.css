@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex; /* استخدام الفليكس لجعل العناصر في صف واحد */
+    align-items: center; /* محاذاة العناصر عموديًا في الوسط */
+    padding: 10px; /* إضافة حشوة */
+}
+
+h1 {
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+figure {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    color: #333;
+}
+
+footer {
+    display: flex; /* استخدام الفليكس لجعل العناصر في صف واحد */
+    justify-content: center; /* محاذاة العناصر في المنتصف */
+    align-items: center; /* محاذاة العناصر عموديًا في الوسط */
+    padding: 10px; /* إضافة حشوة */
+    background-color: #f1f1f1; /* لون خلفية للتذييل */
+}
+
+footer p {
+    margin: 0 15px; /* مسافة بين العناصر */
+}
+
+.icon {
+    width: 50px; /* عرض الأيقونة */
+    height: 50px; /* ارتفاع الأيقونة */
+    border-radius: 50%; /* جعل الصورة مستديرة */
+    margin-right: 10px; /* مسافة بين الأيقونة والنص */
+}
+h1 {
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    text-align: center; /* محاذاة النص إلى المنتصف */
+    flex: 1; /* تجعل العنوان يأخذ كل المساحة المتاحة */
+}
