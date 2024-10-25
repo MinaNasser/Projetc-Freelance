@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Use defer to ensure the script loads after the DOM -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="en">Home</a></li>
+                <li><a href="#about" class="en">About</a></li>
+                <li><a href="#projects" class="en">Projects</a></li>
+                <li><a href="#contact" class="en">Contact</a></li>
+                <li><a href="#home" class="ar">الرئيسية</a></li>
+                <li><a href="#about" class="ar">من أنا</a></li>
+                <li><a href="#projects" class="ar">المشاريع</a></li>
+                <li><a href="#contact" class="ar">اتصل بي</a></li>
+            </ul>
+        </nav>
+        <div class="language-toggle">
+            <button id="languageButton" class="right">العربية</button> <!-- Button to toggle languages -->
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="en">This is the English version of my portfolio.</p>
+        <p class="ar" style="display: none;">هذه النسخة العربية من محفظتي.</p>
+        <a href="#about" class="button">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="my-image.jpg" alt="My Profile" class="profile-photo">
+        <p class="en">I am a web developer...</p>
+        <p class="ar" style="display: none;">أنا مطور ويب...</p>
+        <ul>
+            <li class="en">Skills: HTML, CSS, JavaScript</li>
+            <li class="ar" style="display: none;">المهارات: HTML، CSS، JavaScript</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p class="en">Description of project 1.</p>
+            <p class="ar" style="display: none;">وصف المشروع 1.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p class="en">Description of project 2.</p>
+            <p class="ar" style="display: none;">وصف المشروع 2.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p class="en">Description of project 3.</p>
+            <p class="ar" style="display: none;">وصف المشروع 3.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p class="en">You can reach me via email. : minanasser82018@gmail.com</p>
+        <p class="ar" style="display: none;">  minanasser82018@gmail.com :يمكنك الاتصال بي عبر البريد الإلكتروني.</p>
+    </section>
+</body>
+</html>

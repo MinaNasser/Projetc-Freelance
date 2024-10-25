@@ -1,0 +1,234 @@
+/* تنسيقات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333; /* خلفية داكنة */
+    color: #fff; /* لون النص */
+    line-height: 1.6;
+}
+
+/* تصميم الهيدر والقائمة */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 20px; 
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    display: flex; /* استخدم flex للتنسيق */
+    justify-content: space-between; /* توزيع المساحة بين العناصر */
+    align-items: center; /* محاذاة العناصر عموديًا */
+}
+
+header:hover {
+    background-color: #444;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0; /* إزالة المسافة الافتراضية */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    display: flex; /* جعل العناصر داخل القائمة مرنة */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50;
+}
+
+/* تأثيرات الانتقال السلس */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* تصميم الصفحة الرئيسية */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(120deg, #4CAF50, #45a049, #34A853);
+    color: #fff;
+    animation: fadeIn 1.5s ease-in-out;
+    margin: 10px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#home .button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#home .button:hover {
+    background-color: #4CAF50;
+    transform: scale(1.1);
+}
+
+/* تصميم قسم "من أنا" */
+#about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); /* خلفية زجاجية شفافة */
+    backdrop-filter: blur(10px); /* تأثير التمويه */
+    border-radius: 10px; /* زوايا مستديرة */
+    opacity: 0;
+    animation: slideIn 1.5s ease forwards;
+    margin: 10px;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+#about h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+#about p, #about ul {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1em;
+}
+
+/* تصميم قسم المشاريع */
+#projects {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+/* تصميم قسم الاتصال */
+#contact {
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.language-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-left: auto; /* تأكد من وجود مسافة تلقائية */
+    text-align: right; /* يمكن تعديله حسب الحاجة */
+    transition: margin 0.3s ease; /* تأثير سلس عند التحرك */
+}
+
+.language-toggle button {
+    padding: 10px 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.language-toggle button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* تنسيق الصورة الشخصية */
+.profile-photo {
+    width: 150px; /* أو الحجم المطلوب */
+    height: 150px; /* أو الحجم المطلوب */
+    border-radius: 50%; /* يجعل الصورة دائرية */
+    border: 5px solid blue; /* سمك ولون الحدود الأزرق */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* تأثير ظل */
+}
+
+/* تصميم أقسام الصفحة */
+section {
+    padding: 40px 20px;
+    margin: 20px 0; /* إضافة مسافة بين الأقسام */
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* تنسيق قائمة المشاريع */
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto; /* مركز البطاقة مع مسافة */
+    max-width: 600px; /* الحد الأقصى لعرض البطاقة */
+}
+
+/* تنسيق الأزرار */
+button {
+    background-color: #007bff; /* أزرار باللون الأزرق */
+    color: #fff; /* نص أبيض */
+    border: none; /* بدون حدود */
+    border-radius: 5px; /* زوايا دائرية */
+    padding: 10px 15px; /* مساحة داخلية */
+    cursor: pointer; /* شكل المؤشر */
+}
+
+button:hover {
+    background-color: #0056b3; /* لون أغمق عند التمرير */
+}
+
+/* تحسينات أخرى */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* القائمة عمودية على الشاشات الصغيرة */
+    }
+}
