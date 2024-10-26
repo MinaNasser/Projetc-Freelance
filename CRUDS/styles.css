@@ -4,7 +4,7 @@
     
 }
 body{
-    background: #222;
+    background: #4d4c4c;
     color: #fff;
     font-family: system-ui;
     
@@ -26,7 +26,7 @@ input{
     height: 30px;
     outline: none;
     border: none;
-    background: #111;
+    background: #000000;
     margin: 4px 0;
     border-radius: 4px;
     padding: 4px;
@@ -34,7 +34,7 @@ input{
 
 }
 input:focus{
-    background: #000;
+    background: #100d0d;
     transform: scale(1.1);
 }
 
@@ -42,7 +42,7 @@ input:focus{
     width: 20%;
 }
 #total{
-    background: #a00d02;
+    background: #ee594e;
     padding: 5px 2px;
     border-radius: 4px;
 
@@ -55,13 +55,13 @@ button{
     height: 30px;
     border: none;
     cursor: pointer;
-    background: #28034b;
+    background: #0a0246;
     color: #fff;
     border-radius: 20px;
     transition: 0.5s;
 }
 button:hover{
-    background: #6005b6;
+    background: #1c08b7;
     letter-spacing: 1px;
 }
 .btnSearch{
@@ -91,7 +91,7 @@ th,td{
 #btnScroll {
     width: 20px; 
     height: 20px;
-    background: #28034b;
+    background: #0a0246;
 
     /* #FA0 */
     border: none;
@@ -103,7 +103,7 @@ th,td{
     display: none;
 }
 #btnScroll:hover{
-    background: #6005b6;
+    background: #1c08b7;
     letter-spacing: 1px;
 }
 
