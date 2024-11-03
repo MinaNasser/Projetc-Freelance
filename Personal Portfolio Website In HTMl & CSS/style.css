@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color:rgba(36, 39, 44, 1);
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+header h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+header h2 span{
+    color: yellowgreen;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+header .navbar{
+    margin-left: 100px;
+}
+
+header ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight:500;
+    cursor: pointer;
+    transition: .4s;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+    color: yellowgreen;
+    filter: drop-shadow(0  0 10px  white);
+}
+
+header button{
+    margin-right: 70px;
+}
+
+header .H-btn{
+    width: 133px;
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 0 0 12px blue;
+    background-color:transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.H-btn:hover{
+    scale: 1.1;
+    filter: drop-shadow(0 0 10px blue);
+    border-radius: 10px;
+}
+
+
+/* =======================Home Page Style=================== */
+
+.home{
+    text-align: center;
+}
+
+
+.home .image{
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px blue;
+    /* margin-left: 555px; */
+    margin-left: 430px;
+    box-shadow: 0 22px 30px blue;
+}
+
+.home .image img{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 246px;
+    height: 246px;
+    text-align: center;
+}
+
+.home h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 5px;
+    /* color: gray; */
+    /* color: black; */
+    color: blue;
+
+}
+
+.home h1{
+    color: #fff;
+    font-size: 33px;
+    font-weight: bold;
+}
+.home h2{
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+.home h2 span{
+    color: yellowgreen;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.home p{
+    width: 60%;
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.home .button{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.home .button .btn{
+    width: 125px;
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 0 0 10px blue;
+    background-color:transparent;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn:hover{
+    scale: 1.1;
+    border-radius: 20px;
+    box-shadow: 0 22px 30px white;
+}

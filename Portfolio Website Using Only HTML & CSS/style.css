@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #000;
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-shadow: 0 0 12px white; */
+    padding: 15px;
+}
+
+.logo h1{
+ color: #fff;
+ font-size: 35px;
+ font-weight: bold;
+ color: white;
+ margin-left: 20px;
+ filter: drop-shadow(0 0 10px yellowgreen);
+}
+
+
+.navbar{
+    margin-left: 600px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .4s;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+header .button{
+    margin-right: 30px;
+}
+
+.button .btn{
+    width: 133px;
+    padding: 10px;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 0 0px 10px white;
+    background-color:transparent;
+    border-radius: 10px;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    scale: 1.1;
+    box-shadow: 0 10px 20px yellowgreen;
+}
+
+/* ========Home Style======= */
+
+.home{
+    display: flex;
+    justify-content: spa;
+}
+
+
+.home .home-content{
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+.home-content h3{
+    color: gray;
+}
+.home-content h1{
+    filter: drop-shadow(0 0 10px  green);
+}
+.home-content h2{
+    color: yellowgreen;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.home-content p{
+    color: gray;
+    width: 70%;
+}
+
+.home-content .button {
+    margin-top: 20px;
+}
+
+.button #btn{
+    width: 144px;
+    padding: 9px;
+    background-color:transparent;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition:.4s;
+}
+
+#btn:hover{
+    scale: 1.1;
+    box-shadow: 0 20px 30px yellowgreen;
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 12px white;
+    margin-top:100px;
+    box-shadow: 0 20px 30px white;
+    margin-right: 150px;
+}
+
+.image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* ==================About Style============ */
+
+.about{
+    display: flex;
+    gap: 50px;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+
+.about .image{
+    margin-top: 100px;
+    margin-left:150px;
+    position: relative;
+    margin-right: -1px;
+}
+
+
+.about .about-content{
+    margin-top: 70px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.about-content h2{
+    color: yellowgreen;
+    font-size: 33px;
+    font-weight: bold;
+}
+.about-content p{
+    color:gray;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+}
+
+.about-content .button{
+    margin-top: 14px;
+}
+
+.about-content .button .A-btn{
+    width: 120px;
+    padding: 10px;
+    background-color:transparent;
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 0 0 12px white;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about-content .social-media{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.about-content .social-media li{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color:transparent;
+    box-shadow: 0 20px 30px blue;
+    color: #fff;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transition: .4s;
+}
+
+.about .about-content li:hover{
+    scale: 1.1;
+    box-shadow: 0 20px 30px yellowgreen;
+}
+
+.about-content .social-media li a{
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+/* ==================Service Style==================== */
+
+.service{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.service h1{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    padding-top: 20px;
+}
+
+
+.service .main-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 110px;
+}
+
+.main-service .card{
+    outline: none;
+    border: 1px  solid blue;
+    box-shadow: 10px 20px 30px yellowgreen;
+    border-radius: 12px;
+    width: 350px;
+    height: 300px;
+    cursor: pointer;
+    text-align: center;
+    transition: .4s;
+}
+
+.main-service .card:hover{
+    box-shadow: 0 22px 30px blue;
+}
+
+#three{
+    box-shadow: 0 20px 30px blue;
+    transition: .4s;
+}
+#three:hover{
+    box-shadow: 0 22px 30px blue;
+}
+#three02{
+    box-shadow: 0 20px 30px white;
+    transition: .4s;
+}
+#three02:hover{
+    box-shadow: 0 22px 30px blue;
+}
+
+.card li a{
+    font-size:35px;
+    color: #fff;
+    filter: drop-shadow(0 0 10px blue);
+}
+
+.card h2{
+    color: yellowgreen;
+}
+.card p{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card button{
+    margin-top: 20px;
+}
+.card  .S-btn{
+    width: 133px;
+    padding: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 12px white;
+    border: 2px solid white;
+    background-color:transparent;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.S-btn:hover{
+    scale: 1.1;
+    box-shadow: 0 20px 30px blue;
+}
+
+/* =========================Contact Page Style============ */
+
+.contact{
+  width: 100%;
+  height:100vh;
+  position: relative;
+  margin-top: 50px;
+}
+
+.contact h1{
+    text-align: center;
+    padding-top:30px;
+}
+
+
+.contact .main-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.main-contact form{
+    border: 1px solid  blue;
+    border-radius: 10px;
+    background-color:transparent;
+    box-shadow: 0 22px 30px yellowgreen;
+    text-align: center;
+    width: 300px;
+    height: 340px;
+    padding: 10px;
+    outline: none;
+}
+
+form .sanjay{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid blue;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    ::placeholder{
+        color: ffff;
+    }
+    border-radius: 3px;
+    outline: none;
+    margin: 10px;
+}
+form .text{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid blue;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    ::placeholder{
+        color: ffff;
+    }
+    margin: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+
+from button{
+    margin-top: 20px;
+}
+
+ .C-btn{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color:transparent;
+    /* box-shadow: 0 12px 30px blue; */
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    outline: none;
+    transition: .4s;
+    border-radius: 3px;
+}
+
+.C-btn:hover{
+    scale: 1.1;
+    box-shadow: 0  22px 30px white;
+    border-radius: 12px;
+}
+
+
+/* ===================Footer Style================== */
+
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 9vh;
+}
+
+.footer h3{
+    font-size: 15px;
+    font-weight: bold;
+    color:gray;
+}

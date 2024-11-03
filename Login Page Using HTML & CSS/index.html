@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Your<span>logo</span></h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <button class="btn" id="openbtn">Log In</button>
+        </div>
+    </header>
+
+    <!-- login -->
+
+    <div class="login">
+        <form id="form">
+            <h1>Login</h1>
+            <div class="cros" id="closebtn"><i class="fa-solid fa-xmark"></i></div>
+            <input type="text" class="sanjay" placeholder="User-Name" id="username" required/><br/>
+            <div class="icon"><i class="fa-solid fa-user"></i></div>
+            <input type="password" class="sanjay" placeholder="User-Password" id="password" required/><br/>
+            <div class="icon"><i class="fa-solid fa-lock"></i></div>
+            <div class="check-box">
+                <input type="checkbox" >
+                <h3>I agree all terms & condition</h3>
+                <a href="#">forget password</a>
+            </div>
+            <div class="social-media">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            </div>
+            <div class="button">
+                <button class="S-btn" id="S-btn">Login</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

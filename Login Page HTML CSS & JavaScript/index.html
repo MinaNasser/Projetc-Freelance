@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="main">W</div>
+            <h1>Website</h1>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <button class="btn" id="openform">Login In</button>
+            <button class="btn">Sign Up</button>
+        </div>
+    </header>
+    <!-- home-page -->
+    <div class="home">
+        <div class="right">
+            <h1>Welcome to your <span>Website</span>!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A soluta exercitationem sequi accusamus quasi dolores atque officiis reprehenderit odio eligendi veniam iste corporis quos possimus, labore quibusdam illum distinctio nostrum?</p>
+            <div class="button">
+                <button class="btn">Explore...</button>
+            </div>
+        </div>
+        <div class="left">
+            <form    id="form">
+                <h1>Login</h1>
+                <div class="cross" id="closeform"><i class="fa-solid fa-xmark"></i></div>
+                <input type="text" class="sanjay" placeholder="User-Name" required/><br/>
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <input type="password" class="sanjay" placeholder="User-Password" required/><br/>
+                <div class="icon"><i class="fa-solid fa-lock"></i></div>
+                <div class="check">
+                <input type="checkbox">
+                <h3>I agree all terms & condition.</h3>
+                <a href="#">Forget Password</a>
+                </div>
+                <div class="button">
+                    <button id="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
