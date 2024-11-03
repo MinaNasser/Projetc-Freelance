@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color:rgb(1, 1, 24);
+    color: #fff;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* box-shadow: 0 0 10px white; */
+    padding:20px 10px;
+}
+
+header .logo  h1{
+    margin-left: 13px;
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+    filter: drop-shadow(0 0 5px blue);
+}
+header .logo  h1 span{
+   color: yellowgreen;
+   filter: drop-shadow(0 0 0 black);
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar{
+    /* margin-left: 500px; */
+    margin-left: 300px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.navbar ul li a:hover{
+   text-decoration: underline;
+   filter: drop-shadow(0 0 10px blue);
+}
+
+header .button{
+    margin-right: 20px;
+}
+
+header .button .H-btn{
+    width: 133px;
+    padding: 10px;
+    background-color:black;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 0 0 10px white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.H-btn:hover{
+    scale: 1.1;
+    color: black;
+}
+
+/* ==========================Home Page Style==================== */
+
+.home{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+}
+
+.home .left{
+    margin-top: 35px;
+    /* margin-left: 120px; */
+    margin-left: 50px;
+}
+ 
+.left h3{
+    color: #fff;
+    font-size: 26px;
+    font-weight:600;
+}
+.left h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight:bold;
+}
+.left h2 span{
+    color: yellowgreen;
+}
+
+.left p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: gray;
+    width: 90%;
+}
+
+.home .left .button{
+    margin-top: 10px;
+}
+.home .left .button .h-btn{
+    width: 130px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:transparent;
+    border: 2px solid white;
+    outline: none;
+    box-shadow: 0 12px  30px yellowgreen;
+    color: #fff;
+    /* border-radius: 10px; */
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.h-btn:hover{
+    border-radius: 14px;
+    scale: 1.1;
+}
+
+.home .right{
+    margin-right: 100px;
+    margin-top: 43px;
+}
+
+.right form{
+    box-shadow: 0 6px 10px white;
+    border: 2px solid white;
+    width: 280px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.right h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form .sanjay{
+    width: 90%;
+    padding: 10px;
+    /* margin: 6px; */
+    background-color:transparent;
+    border: 2px solid white;
+    outline: none;
+    color: #fff;
+    margin-top: 20px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+form .button {
+    margin-top: 30px;
+}
+
+
+form .button .L-btn{
+    width: 90%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color:rgb(3, 3, 59);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 10px 12px blue;
+    transition: .4s;
+    border-radius: 6px;
+}
+
+.L-btn:hover{
+    scale: 1.1;
+    border-radius:13px;
+}
+
+form .icon{
+    position: absolute;
+    margin-left: 217px;
+    margin-top: -39px;
+}
+
+.icon a{
+    color: #fff;
+    font-size: 20px;
+}
