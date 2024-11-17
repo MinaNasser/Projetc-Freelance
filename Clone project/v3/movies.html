@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies - Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo">NETFLIX</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="tv-shows.html" class="active">TV Shows</a></li>
+                <li><a href="movies.html" class="active">Movies</a></li>
+                <li><a href="New-Popular.html" class="active">New & Popular</a></li>
+                <li><a href="mylist.html" class="active">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <input id="Email" name="Email" type="text" placeholder="Search for a show, movie, genre, or keyword">
+                <a id="btnsearch" href="#" class="btn">Search</a>
+            </div>
+        </section>
+        
+        <section class="movies-section">
+            <h2 class="section-title">Top Movies</h2>
+            <div class="movies-grid">
+                <!-- Movie Cards -->
+                <div class="movie-card">
+                    <img src="./image/Trending/Moonfall_film_poster.jpg" alt="Moonfall">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Moonfall</h3>
+                        <p class="movie-description">A nostalgic sci-fi series</p>
+                        <button 
+                            class="btn add-to-list" 
+                            onclick="addToFavorites('Moonfall', './image/Trending/Moonfall_film_poster.jpg')">
+                            Add to My List
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="movie-card">
+                    <img src="./image/Trending/movie-300.jpg" alt="300">
+                    <div class="movie-info">
+                        <h3 class="movie-title">300</h3>
+                        <p class="movie-description">A nostalgic sci-fi series</p>
+                        <button 
+                            class="btn add-to-list" 
+                            onclick="addToFavorites('300', './image/Trending/movie-300.jpg')">
+                            Add to My List
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Firebase Script -->
+    <script src="script.js" defer></script>
+</body>
+</html>

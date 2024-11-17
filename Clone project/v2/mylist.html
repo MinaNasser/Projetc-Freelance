@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My List - Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo">NETFLIX</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active" >Home</a></li>
+                <li><a href="tv-shows.html" class="active" >TV Shows</a></li>
+                <li><a href="movies.html" class="active" >Movies</a></li>
+                <li><a href="New-Popular.html" class="active" >New & Popular</a></li>
+                <li><a href="mylist.html" class="active">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unlimited movies, TV shows, and more.</h1>
+                <input id="Email" name="Email" type="text" placeholder="Search for a show, movie, genre, or keyword">
+                <a id="btnsearch" href="#" class="btn">Search</a>
+            </div>
+        </section>
+        <section class="movies-section">
+            <h2 class="section-title">My Saved List</h2>
+            <div class="movies-grid">
+                <!-- Movie Cards -->
+                <div class="movie-card">
+                    <img src="./image/MyList/inception.jpg" alt="Inception">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Inception</h3>
+                        <p class="movie-description">A mind-bending thriller</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="./image/MyList/interstellar.jpg" alt="Interstellar">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Interstellar</h3>
+                        <p class="movie-description">A journey through space</p>
+                    </div>
+                </div>
+
+                <div class="movie-card">
+                    <img src="./image/MyList/avatar.jpg" alt="Avatar">
+                    <div class="movie-info">
+                        <h3 class="movie-title">Avatar</h3>
+                        <p class="movie-description">A visually stunning adventure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
