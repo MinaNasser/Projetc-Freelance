@@ -210,7 +210,14 @@ body::-webkit-scrollbar-track {
   border-radius: 18px;
   --webkit-border-radius: 18px;
 }
-
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer p {
+  margin: 5px;
+  font-size: 20px;
+}
 
 
 /* Responsive adjustments */
