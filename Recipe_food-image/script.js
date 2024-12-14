@@ -7,7 +7,7 @@ const closeBtn = document.querySelector(".recipe-close-btn");
 
  function getFood(Query) {
     var xhr = new XMLHttpRequest();
-    recipeContainer.innerHTML="<h2>Getting Recipes.....</h2"
+    recipeContainer.innerHTML="<h2>Getting Recipes.....</h2>"
     try{
 
         // استخدام رابط API الصحيح مع القالب النصي
